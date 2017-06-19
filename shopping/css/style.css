@@ -1,0 +1,96 @@
+@charset "utf-8";
+/**
+ * 功能：
+ * 日期：
+**/
+
+/*************************************************/
+/* 样式初始化部分 */
+/*************************************************/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/*************************************************/
+/* 元件样式定义 */
+/*************************************************/
+
+/*************************************************/
+/* 样式细节设置部分 */
+/*************************************************/
+#imgBox{
+    background: url("../images/img2.jpg") no-repeat center;
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgba(229,230,228,1);
+    position: absolute;
+    animation: dots 0.8s ease-in infinite;
+}
+#clothesBtn{
+    left: 45%;
+    top:30%;
+}
+#pantsBtn{
+    left:50%;
+    top:55%;
+}
+#shoesBtn{
+    left: 55%;
+    bottom: 4%;
+}
+button:focus{
+    animation: dots paused;
+    background-color: rgba(173,181,165,1);
+}
+#wrap{
+    height: 0;
+    width: 100%;
+    background-color: rgba(46,108,136,.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+}
+#wrap>p{
+    margin: 10% auto;
+    width: 80%;
+    font-family: '宋体';
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    word-spacing: 10px;
+    text-align: left;
+}
+#wrap>p:first-child{
+    font-family: Harrington;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+/*#wrap>p:first-child>*/
+/*************************************************/
+/* 响应式设计部分 */
+/*************************************************/
+
+/*************************************************/
+/* 动画帧定义部分 */
+/*************************************************/
+@keyframes dots{
+    0% {box-shadow: 0 0 2px 2px rgba(229,230,228,.5)}
+    100%{box-shadow: 0 0 2px 5px rgba(229,230,228,.5)}
+}

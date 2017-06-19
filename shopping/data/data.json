@@ -1,0 +1,26 @@
+[
+    {
+        "brand":"Christian Dior",
+        "from":"品牌  上衣",
+        "texture":"类型    纯棉",
+        "origin":"产地    法国",
+        "price":"价格    $2699",
+        "describe":"描述 可手洗,干洗,禁止水洗"
+    },
+    {
+        "brand":"Donna Karan",
+        "from":"品牌  裤子",
+        "texture":"类型    牛仔裤",
+        "origin":"产地    美国",
+        "price":"价格    $1488",
+        "describe":"描述 避免高温熨烫"
+    },
+    {
+        "brand":"Chanel",
+        "from":"品牌  帆布鞋",
+        "texture":"类型    白色帆布",
+        "origin":"产地    意大利",
+        "price":"价格    $1988",
+        "describe":"描述  正常清洗即可"
+    }
+]
